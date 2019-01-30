@@ -1,0 +1,39 @@
+#tuples 
+
+b = ("apple", "banana", "cherry")
+print(b)
+
+#access tuple by refering  index number, inside square brackets
+
+print(b[1])
+
+# once the  tuple is created  , you cannot chnge its values. tuple is  unchangeable
+
+b[1] = "blackberry"
+
+print (b)
+
+# can find  how many items a tuple has ,  use  len() method
+
+print (len(b))
+
+# once the  tuple is created  , you cannot add item  to it . tuple is  unchangeable
+
+b[3] = "orange"
+
+print(b)
+
+# remove items
+#  tuples ae unchangeable, so  we cannot remove item from it but  can delete  complete tuple
+
+c= ("wow", "wonder", "great")
+del c
+
+print (c)
+
+# tuple constructor
+# tuple() constructor to make  a  tuple
+
+d = tuple(("van", "car", "bike"))
+print  (d)
+
